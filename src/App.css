@@ -3,26 +3,16 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 500px;
+    height: 300px;
     opacity: 0.8;
 
 }
 .App{
-    margin: 60px;
-    padding: 30px auto;
+    margin: 80px;
+    padding: 40px auto;
     border-radius: 30px;
     background-color:  rgb(245, 205, 191);
-    height: 400px;
-    
-}
-.search{
-    background-image: url(./aruna.jpg);
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 400px;
-
+    height: 350px;
 }
 
 .App-header{
@@ -46,4 +36,9 @@ p{
     text-align: center;
     color: rgb(233, 89, 5);
     font-size: 30px;
+}
+
+.App-footer{
+    text-align: center;
+    margin: 30px auto;
 }
