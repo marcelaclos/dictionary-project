@@ -7,6 +7,7 @@ export default function Dictionary() {
     let [Keworkd, setKeword] = useState("");
     function search(event){
         event.preventDefault();
+        alert(`seraching for {Keyword}`);
     }
     function handleKeywordChange(event){
         setKeword(event.target.value);
