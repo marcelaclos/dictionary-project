@@ -4,13 +4,13 @@ import "./Dictionary.css";
 
 
 export default function Dictionary() {
-    let [Keworkd, setKeword] = useState("");
+    let [Keyword, setKeyword] = useState("");
     function search(event){
         event.preventDefault();
-        alert(`seraching for {Keyword}`);
+        alert(`searching for {Keyword}`);
     }
     function handleKeywordChange(event){
-        setKeword(event.target.value);
+        setKeyword(event.target.value);
 
     }
 
